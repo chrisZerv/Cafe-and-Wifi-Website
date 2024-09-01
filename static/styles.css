@@ -1,0 +1,164 @@
+/* General Styling for Both Pages */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+header p {
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+/* Home Page Specific Styling */
+.home-page .add-cafe-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.home-page .add-cafe-btn:hover {
+    background-color: #45a049;
+}
+
+.home-page #cafes-list {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.home-page .cafes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.home-page .cafe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.home-page .cafe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.home-page .cafe-details {
+    padding: 15px;
+}
+
+.home-page .cafe-details h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.home-page .cafe-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.home-page button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.home-page button:hover {
+    background-color: #d32f2f;
+}
+
+/* Add Page Specific Styling */
+.add-page .back-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.add-page .back-btn:hover {
+    background-color: #45a049;
+}
+
+.add-page section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-page .form-group {
+    margin-bottom: 15px;
+}
+
+.add-page .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.add-page .form-group input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-page .checkboxes label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.add-page .add-cafe-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-page .add-cafe-btn:hover {
+    background-color: #d32f2f;
+}
